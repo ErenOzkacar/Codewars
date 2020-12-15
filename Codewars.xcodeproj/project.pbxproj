@@ -8,10 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		A670B06A25888B75000986DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A670B06925888B75000986DB /* main.cpp */; };
+		A670B08525889AE2000986DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A670B08425889AE2000986DB /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		A670B06425888B75000986DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A670B07325888C10000986DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A670B08025889AE2000986DB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +44,27 @@
 /* Begin PBXFileReference section */
 		A670B06625888B75000986DB /* Codewars */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Codewars; sourceTree = BUILT_PRODUCTS_DIR; };
 		A670B06925888B75000986DB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A670B07525888C10000986DB /* Spinning words */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Spinning words"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A670B08225889AE2000986DB /* Stop gninnipS My sdroW! */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Stop gninnipS My sdroW!"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A670B08425889AE2000986DB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A670B06325888B75000986DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A670B07225888C10000986DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A670B07F25889AE2000986DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				A670B06825888B75000986DB /* Codewars */,
+				A670B08325889AE2000986DB /* Stop gninnipS My sdroW! */,
 				A670B06725888B75000986DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				A670B06625888B75000986DB /* Codewars */,
+				A670B07525888C10000986DB /* Spinning words */,
+				A670B08225889AE2000986DB /* Stop gninnipS My sdroW! */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +99,14 @@
 				A670B06925888B75000986DB /* main.cpp */,
 			);
 			path = Codewars;
+			sourceTree = "<group>";
+		};
+		A670B08325889AE2000986DB /* Stop gninnipS My sdroW! */ = {
+			isa = PBXGroup;
+			children = (
+				A670B08425889AE2000986DB /* main.cpp */,
+			);
+			path = "Stop gninnipS My sdroW!";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +129,40 @@
 			productReference = A670B06625888B75000986DB /* Codewars */;
 			productType = "com.apple.product-type.tool";
 		};
+		A670B07425888C10000986DB /* Spinning words */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A670B07925888C10000986DB /* Build configuration list for PBXNativeTarget "Spinning words" */;
+			buildPhases = (
+				A670B07125888C10000986DB /* Sources */,
+				A670B07225888C10000986DB /* Frameworks */,
+				A670B07325888C10000986DB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spinning words";
+			productName = "Spinning words";
+			productReference = A670B07525888C10000986DB /* Spinning words */;
+			productType = "com.apple.product-type.tool";
+		};
+		A670B08125889AE2000986DB /* Stop gninnipS My sdroW! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A670B08625889AE2000986DB /* Build configuration list for PBXNativeTarget "Stop gninnipS My sdroW!" */;
+			buildPhases = (
+				A670B07E25889AE2000986DB /* Sources */,
+				A670B07F25889AE2000986DB /* Frameworks */,
+				A670B08025889AE2000986DB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stop gninnipS My sdroW!";
+			productName = "Stop gninnipS My sdroW!";
+			productReference = A670B08225889AE2000986DB /* Stop gninnipS My sdroW! */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -91,6 +172,12 @@
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					A670B06525888B75000986DB = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					A670B07425888C10000986DB = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					A670B08125889AE2000986DB = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
@@ -109,6 +196,8 @@
 			projectRoot = "";
 			targets = (
 				A670B06525888B75000986DB /* Codewars */,
+				A670B07425888C10000986DB /* Spinning words */,
+				A670B08125889AE2000986DB /* Stop gninnipS My sdroW! */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +208,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				A670B06A25888B75000986DB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A670B07125888C10000986DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A670B07E25889AE2000986DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A670B08525889AE2000986DB /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +356,38 @@
 			};
 			name = Release;
 		};
+		A670B07A25888C10000986DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A670B07B25888C10000986DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A670B08725889AE2000986DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A670B08825889AE2000986DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -269,6 +405,24 @@
 			buildConfigurations = (
 				A670B06E25888B75000986DB /* Debug */,
 				A670B06F25888B75000986DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A670B07925888C10000986DB /* Build configuration list for PBXNativeTarget "Spinning words" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A670B07A25888C10000986DB /* Debug */,
+				A670B07B25888C10000986DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A670B08625889AE2000986DB /* Build configuration list for PBXNativeTarget "Stop gninnipS My sdroW!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A670B08725889AE2000986DB /* Debug */,
+				A670B08825889AE2000986DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
