@@ -9,8 +9,8 @@
 #include <iostream>
 using namespace std;
 
-int sumOfMultiples(int number) {
-    if ((number - 1) <= 0) {
+unsigned int sumOfMultiples(unsigned int number) {
+    if (number == 0) {
         return 0;
     } else {
         if ((number - 1) % 3 == 0 || (number - 1) % 5 == 0) {

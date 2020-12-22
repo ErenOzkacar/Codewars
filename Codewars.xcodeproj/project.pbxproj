@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A670B08525889AE2000986DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A670B08425889AE2000986DB /* main.cpp */; };
 		A6E7B15E25920E6D0063BEFF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6E7B15D25920E6D0063BEFF /* main.cpp */; };
+		A6E7B16D259213E10063BEFF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6E7B16C259213E10063BEFF /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +49,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		A6E7B168259213E10063BEFF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +67,8 @@
 		A670B08425889AE2000986DB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A6E7B15B25920E6D0063BEFF /* Multiples of 3 or 5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Multiples of 3 or 5"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E7B15D25920E6D0063BEFF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A6E7B16A259213E10063BEFF /* Bit Counting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Bit Counting"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E7B16C259213E10063BEFF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +100,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A6E7B167259213E10063BEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -96,6 +115,7 @@
 			children = (
 				A670B08325889AE2000986DB /* Stop gninnipS My sdroW! */,
 				A6E7B15C25920E6D0063BEFF /* Multiples of 3 or 5 */,
+				A6E7B16B259213E10063BEFF /* Bit Counting */,
 				A670B06725888B75000986DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,6 +127,7 @@
 				A670B07525888C10000986DB /* Spinning words */,
 				A670B08225889AE2000986DB /* Stop gninnipS My sdroW! */,
 				A6E7B15B25920E6D0063BEFF /* Multiples of 3 or 5 */,
+				A6E7B16A259213E10063BEFF /* Bit Counting */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +146,14 @@
 				A6E7B15D25920E6D0063BEFF /* main.cpp */,
 			);
 			path = "Multiples of 3 or 5";
+			sourceTree = "<group>";
+		};
+		A6E7B16B259213E10063BEFF /* Bit Counting */ = {
+			isa = PBXGroup;
+			children = (
+				A6E7B16C259213E10063BEFF /* main.cpp */,
+			);
+			path = "Bit Counting";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +227,23 @@
 			productReference = A6E7B15B25920E6D0063BEFF /* Multiples of 3 or 5 */;
 			productType = "com.apple.product-type.tool";
 		};
+		A6E7B169259213E10063BEFF /* Bit Counting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E7B16E259213E10063BEFF /* Build configuration list for PBXNativeTarget "Bit Counting" */;
+			buildPhases = (
+				A6E7B166259213E10063BEFF /* Sources */,
+				A6E7B167259213E10063BEFF /* Frameworks */,
+				A6E7B168259213E10063BEFF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bit Counting";
+			productName = "Bit Counting";
+			productReference = A6E7B16A259213E10063BEFF /* Bit Counting */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -216,6 +262,9 @@
 						CreatedOnToolsVersion = 12.3;
 					};
 					A6E7B15A25920E6D0063BEFF = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					A6E7B169259213E10063BEFF = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
@@ -237,6 +286,7 @@
 				A670B07425888C10000986DB /* Spinning words */,
 				A670B08125889AE2000986DB /* Stop gninnipS My sdroW! */,
 				A6E7B15A25920E6D0063BEFF /* Multiples of 3 or 5 */,
+				A6E7B169259213E10063BEFF /* Bit Counting */,
 			);
 		};
 /* End PBXProject section */
@@ -269,6 +319,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6E7B15E25920E6D0063BEFF /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E7B166259213E10063BEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E7B16D259213E10063BEFF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +510,24 @@
 			};
 			name = Release;
 		};
+		A6E7B16F259213E10063BEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6E7B170259213E10063BEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -496,6 +572,15 @@
 			buildConfigurations = (
 				A6E7B15F25920E6D0063BEFF /* Debug */,
 				A6E7B16025920E6D0063BEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E7B16E259213E10063BEFF /* Build configuration list for PBXNativeTarget "Bit Counting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E7B16F259213E10063BEFF /* Debug */,
+				A6E7B170259213E10063BEFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
