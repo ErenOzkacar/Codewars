@@ -12,19 +12,19 @@ using namespace std;
 
 string spinWords(string words) {
     string spinnedWords {};
-    size_t start {0};
-    size_t end {0};
+    int start {0};
+    int end {0};
     
     while (end < words.length()) {
         while (words[end] != ' ' && end < words.length()) {
             ++end;
         }
         if (end - start >= 5) {
-            for (size_t i = end - 1; i >= start; --i) {
+            for (int i = end - 1; i >= start; --i) {
                 spinnedWords += words[i];
             }
         } else {
-            for (size_t i = start; i < end; ++i) {
+            for (int i = start; i < end; ++i) {
                 spinnedWords += words[i];
             }
         }

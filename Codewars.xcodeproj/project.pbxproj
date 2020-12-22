@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A670B06A25888B75000986DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A670B06925888B75000986DB /* main.cpp */; };
 		A670B08525889AE2000986DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A670B08425889AE2000986DB /* main.cpp */; };
+		A6E7B15E25920E6D0063BEFF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6E7B15D25920E6D0063BEFF /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,14 +39,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		A6E7B15925920E6D0063BEFF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A670B06625888B75000986DB /* Codewars */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Codewars; sourceTree = BUILT_PRODUCTS_DIR; };
-		A670B06925888B75000986DB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A670B07525888C10000986DB /* Spinning words */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Spinning words"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A670B08225889AE2000986DB /* Stop gninnipS My sdroW! */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Stop gninnipS My sdroW!"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A670B08425889AE2000986DB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A6E7B15B25920E6D0063BEFF /* Multiples of 3 or 5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Multiples of 3 or 5"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E7B15D25920E6D0063BEFF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,14 +81,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A6E7B15825920E6D0063BEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		A670B05D25888B75000986DB = {
 			isa = PBXGroup;
 			children = (
-				A670B06825888B75000986DB /* Codewars */,
 				A670B08325889AE2000986DB /* Stop gninnipS My sdroW! */,
+				A6E7B15C25920E6D0063BEFF /* Multiples of 3 or 5 */,
 				A670B06725888B75000986DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,16 +106,9 @@
 				A670B06625888B75000986DB /* Codewars */,
 				A670B07525888C10000986DB /* Spinning words */,
 				A670B08225889AE2000986DB /* Stop gninnipS My sdroW! */,
+				A6E7B15B25920E6D0063BEFF /* Multiples of 3 or 5 */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A670B06825888B75000986DB /* Codewars */ = {
-			isa = PBXGroup;
-			children = (
-				A670B06925888B75000986DB /* main.cpp */,
-			);
-			path = Codewars;
 			sourceTree = "<group>";
 		};
 		A670B08325889AE2000986DB /* Stop gninnipS My sdroW! */ = {
@@ -107,6 +117,14 @@
 				A670B08425889AE2000986DB /* main.cpp */,
 			);
 			path = "Stop gninnipS My sdroW!";
+			sourceTree = "<group>";
+		};
+		A6E7B15C25920E6D0063BEFF /* Multiples of 3 or 5 */ = {
+			isa = PBXGroup;
+			children = (
+				A6E7B15D25920E6D0063BEFF /* main.cpp */,
+			);
+			path = "Multiples of 3 or 5";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +181,23 @@
 			productReference = A670B08225889AE2000986DB /* Stop gninnipS My sdroW! */;
 			productType = "com.apple.product-type.tool";
 		};
+		A6E7B15A25920E6D0063BEFF /* Multiples of 3 or 5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E7B16125920E6D0063BEFF /* Build configuration list for PBXNativeTarget "Multiples of 3 or 5" */;
+			buildPhases = (
+				A6E7B15725920E6D0063BEFF /* Sources */,
+				A6E7B15825920E6D0063BEFF /* Frameworks */,
+				A6E7B15925920E6D0063BEFF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multiples of 3 or 5";
+			productName = "Multiples of 3 or 5";
+			productReference = A6E7B15B25920E6D0063BEFF /* Multiples of 3 or 5 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -178,6 +213,9 @@
 						CreatedOnToolsVersion = 12.3;
 					};
 					A670B08125889AE2000986DB = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					A6E7B15A25920E6D0063BEFF = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
@@ -198,6 +236,7 @@
 				A670B06525888B75000986DB /* Codewars */,
 				A670B07425888C10000986DB /* Spinning words */,
 				A670B08125889AE2000986DB /* Stop gninnipS My sdroW! */,
+				A6E7B15A25920E6D0063BEFF /* Multiples of 3 or 5 */,
 			);
 		};
 /* End PBXProject section */
@@ -207,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A670B06A25888B75000986DB /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +261,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A670B08525889AE2000986DB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E7B15725920E6D0063BEFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E7B15E25920E6D0063BEFF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +434,24 @@
 			};
 			name = Release;
 		};
+		A6E7B15F25920E6D0063BEFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6E7B16025920E6D0063BEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -423,6 +487,15 @@
 			buildConfigurations = (
 				A670B08725889AE2000986DB /* Debug */,
 				A670B08825889AE2000986DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E7B16125920E6D0063BEFF /* Build configuration list for PBXNativeTarget "Multiples of 3 or 5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E7B15F25920E6D0063BEFF /* Debug */,
+				A6E7B16025920E6D0063BEFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
