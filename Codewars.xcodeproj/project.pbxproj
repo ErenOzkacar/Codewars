@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A670B08525889AE2000986DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A670B08425889AE2000986DB /* main.cpp */; };
+		A68A25BE259304680025157C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A68A25BD259304680025157C /* main.cpp */; };
 		A6E7B15E25920E6D0063BEFF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6E7B15D25920E6D0063BEFF /* main.cpp */; };
 		A6E7B16D259213E10063BEFF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6E7B16C259213E10063BEFF /* main.cpp */; };
 		A6E7B17D25921AF10063BEFF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6E7B17C25921AF10063BEFF /* main.cpp */; };
@@ -34,6 +35,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		A670B08025889AE2000986DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A68A25B9259304680025157C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -85,6 +95,8 @@
 		A670B07525888C10000986DB /* Spinning words */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Spinning words"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A670B08225889AE2000986DB /* Stop gninnipS My sdroW! */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Stop gninnipS My sdroW!"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A670B08425889AE2000986DB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A68A25BB259304680025157C /* Unique In Order */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Unique In Order"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68A25BD259304680025157C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A6E7B15B25920E6D0063BEFF /* Multiples of 3 or 5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Multiples of 3 or 5"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E7B15D25920E6D0063BEFF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A6E7B16A259213E10063BEFF /* Bit Counting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Bit Counting"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +123,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A670B07F25889AE2000986DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68A25B8259304680025157C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -156,6 +175,7 @@
 				A6E7B16B259213E10063BEFF /* Bit Counting */,
 				A6E7B17B25921AF10063BEFF /* Duplicate Encoder */,
 				A6E7B18C25922FB70063BEFF /* A square of squares */,
+				A68A25BC259304680025157C /* Unique In Order */,
 				A670B06725888B75000986DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -170,6 +190,7 @@
 				A6E7B16A259213E10063BEFF /* Bit Counting */,
 				A6E7B17A25921AF10063BEFF /* Duplicate Encoder */,
 				A6E7B18B25922FB70063BEFF /* A square of squares */,
+				A68A25BB259304680025157C /* Unique In Order */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,6 +201,14 @@
 				A670B08425889AE2000986DB /* main.cpp */,
 			);
 			path = "Stop gninnipS My sdroW!";
+			sourceTree = "<group>";
+		};
+		A68A25BC259304680025157C /* Unique In Order */ = {
+			isa = PBXGroup;
+			children = (
+				A68A25BD259304680025157C /* main.cpp */,
+			);
+			path = "Unique In Order";
 			sourceTree = "<group>";
 		};
 		A6E7B15C25920E6D0063BEFF /* Multiples of 3 or 5 */ = {
@@ -268,6 +297,23 @@
 			productReference = A670B08225889AE2000986DB /* Stop gninnipS My sdroW! */;
 			productType = "com.apple.product-type.tool";
 		};
+		A68A25BA259304680025157C /* Unique In Order */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A68A25C1259304680025157C /* Build configuration list for PBXNativeTarget "Unique In Order" */;
+			buildPhases = (
+				A68A25B7259304680025157C /* Sources */,
+				A68A25B8259304680025157C /* Frameworks */,
+				A68A25B9259304680025157C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unique In Order";
+			productName = "Unique In Order";
+			productReference = A68A25BB259304680025157C /* Unique In Order */;
+			productType = "com.apple.product-type.tool";
+		};
 		A6E7B15A25920E6D0063BEFF /* Multiples of 3 or 5 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6E7B16125920E6D0063BEFF /* Build configuration list for PBXNativeTarget "Multiples of 3 or 5" */;
@@ -353,6 +399,9 @@
 					A670B08125889AE2000986DB = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					A68A25BA259304680025157C = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					A6E7B15A25920E6D0063BEFF = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -387,6 +436,7 @@
 				A6E7B169259213E10063BEFF /* Bit Counting */,
 				A6E7B17925921AF10063BEFF /* Duplicate Encoder */,
 				A6E7B18A25922FB70063BEFF /* A square of squares */,
+				A68A25BA259304680025157C /* Unique In Order */,
 			);
 		};
 /* End PBXProject section */
@@ -411,6 +461,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A670B08525889AE2000986DB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68A25B7259304680025157C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68A25BE259304680025157C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,6 +666,24 @@
 			};
 			name = Release;
 		};
+		A68A25BF259304680025157C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A68A25C0259304680025157C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		A6E7B15F25920E6D0063BEFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -715,6 +791,15 @@
 			buildConfigurations = (
 				A670B08725889AE2000986DB /* Debug */,
 				A670B08825889AE2000986DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A68A25C1259304680025157C /* Build configuration list for PBXNativeTarget "Unique In Order" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68A25BF259304680025157C /* Debug */,
+				A68A25C0259304680025157C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
