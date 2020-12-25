@@ -20,10 +20,12 @@ int digPow(int n, int p) {
         digits.insert(digits.begin(), number % 10);
         number /= 10;
     }
+    
     int sumOfDigitsPowN {0};
     for (int i = 0; i < digits.size(); ++i) {
         sumOfDigitsPowN += pow(digits.at(i), p + i);
     }
+    
     int k = sumOfDigitsPowN / n;
     if (k * n == sumOfDigitsPowN) {
         return k;

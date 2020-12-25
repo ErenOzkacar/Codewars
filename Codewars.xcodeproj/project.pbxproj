@@ -10,6 +10,7 @@
 		A670B08525889AE2000986DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A670B08425889AE2000986DB /* main.cpp */; };
 		A67D85032595A236003EBE2C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A67D85022595A236003EBE2C /* main.cpp */; };
 		A67D85192595AA61003EBE2C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A67D85182595AA61003EBE2C /* main.cpp */; };
+		A67D85302595B832003EBE2C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A67D852F2595B832003EBE2C /* main.cpp */; };
 		A68A25BE259304680025157C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A68A25BD259304680025157C /* main.cpp */; };
 		A68A25D12594A5850025157C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A68A25D02594A5850025157C /* main.cpp */; };
 		A68A25E52594B8870025157C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A68A25E42594B8870025157C /* main.cpp */; };
@@ -57,6 +58,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		A67D85142595AA61003EBE2C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A67D852B2595B832003EBE2C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -139,6 +149,8 @@
 		A67D85022595A236003EBE2C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A67D85162595AA61003EBE2C /* Vasya - Clerk */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Vasya - Clerk"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67D85182595AA61003EBE2C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A67D852D2595B832003EBE2C /* Tribonacci Sequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tribonacci Sequence"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67D852F2595B832003EBE2C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A68A25BB259304680025157C /* Unique In Order */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Unique In Order"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68A25BD259304680025157C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A68A25CE2594A5850025157C /* Double Cola */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Double Cola"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,6 +197,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A67D85132595AA61003EBE2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67D852A2595B832003EBE2C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,6 +275,7 @@
 				A68A25E32594B8870025157C /* The Supermarket Queue */,
 				A67D85012595A236003EBE2C /* Playing with digits */,
 				A67D85172595AA61003EBE2C /* Vasya - Clerk */,
+				A67D852E2595B832003EBE2C /* Tribonacci Sequence */,
 				A670B06725888B75000986DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -275,6 +295,7 @@
 				A68A25E22594B8870025157C /* The Supermarket Queue */,
 				A67D85002595A236003EBE2C /* Playing with digits */,
 				A67D85162595AA61003EBE2C /* Vasya - Clerk */,
+				A67D852D2595B832003EBE2C /* Tribonacci Sequence */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -301,6 +322,14 @@
 				A67D85182595AA61003EBE2C /* main.cpp */,
 			);
 			path = "Vasya - Clerk";
+			sourceTree = "<group>";
+		};
+		A67D852E2595B832003EBE2C /* Tribonacci Sequence */ = {
+			isa = PBXGroup;
+			children = (
+				A67D852F2595B832003EBE2C /* main.cpp */,
+			);
+			path = "Tribonacci Sequence";
 			sourceTree = "<group>";
 		};
 		A68A25BC259304680025157C /* Unique In Order */ = {
@@ -447,6 +476,23 @@
 			productReference = A67D85162595AA61003EBE2C /* Vasya - Clerk */;
 			productType = "com.apple.product-type.tool";
 		};
+		A67D852C2595B832003EBE2C /* Tribonacci Sequence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67D85312595B832003EBE2C /* Build configuration list for PBXNativeTarget "Tribonacci Sequence" */;
+			buildPhases = (
+				A67D85292595B832003EBE2C /* Sources */,
+				A67D852A2595B832003EBE2C /* Frameworks */,
+				A67D852B2595B832003EBE2C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tribonacci Sequence";
+			productName = "Tribonacci Sequence";
+			productReference = A67D852D2595B832003EBE2C /* Tribonacci Sequence */;
+			productType = "com.apple.product-type.tool";
+		};
 		A68A25BA259304680025157C /* Unique In Order */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A68A25C1259304680025157C /* Build configuration list for PBXNativeTarget "Unique In Order" */;
@@ -589,6 +635,9 @@
 					A67D85152595AA61003EBE2C = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					A67D852C2595B832003EBE2C = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					A68A25BA259304680025157C = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -637,6 +686,7 @@
 				A68A25E12594B8870025157C /* The Supermarket Queue */,
 				A67D84FF2595A236003EBE2C /* Playing with digits */,
 				A67D85152595AA61003EBE2C /* Vasya - Clerk */,
+				A67D852C2595B832003EBE2C /* Tribonacci Sequence */,
 			);
 		};
 /* End PBXProject section */
@@ -677,6 +727,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A67D85192595AA61003EBE2C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67D85292595B832003EBE2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67D85302595B832003EBE2C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -934,6 +992,24 @@
 			};
 			name = Release;
 		};
+		A67D85322595B832003EBE2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A67D85332595B832003EBE2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		A68A25BF259304680025157C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1113,6 +1189,15 @@
 			buildConfigurations = (
 				A67D851B2595AA61003EBE2C /* Debug */,
 				A67D851C2595AA61003EBE2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A67D85312595B832003EBE2C /* Build configuration list for PBXNativeTarget "Tribonacci Sequence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67D85322595B832003EBE2C /* Debug */,
+				A67D85332595B832003EBE2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
