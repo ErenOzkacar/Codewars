@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A670B08525889AE2000986DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A670B08425889AE2000986DB /* main.cpp */; };
 		A67D85032595A236003EBE2C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A67D85022595A236003EBE2C /* main.cpp */; };
+		A67D85192595AA61003EBE2C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A67D85182595AA61003EBE2C /* main.cpp */; };
 		A68A25BE259304680025157C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A68A25BD259304680025157C /* main.cpp */; };
 		A68A25D12594A5850025157C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A68A25D02594A5850025157C /* main.cpp */; };
 		A68A25E52594B8870025157C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A68A25E42594B8870025157C /* main.cpp */; };
@@ -47,6 +48,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		A67D84FE2595A236003EBE2C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A67D85142595AA61003EBE2C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -127,6 +137,8 @@
 		A670B08425889AE2000986DB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A67D85002595A236003EBE2C /* Playing with digits */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Playing with digits"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67D85022595A236003EBE2C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A67D85162595AA61003EBE2C /* Vasya - Clerk */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Vasya - Clerk"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67D85182595AA61003EBE2C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A68A25BB259304680025157C /* Unique In Order */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Unique In Order"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68A25BD259304680025157C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A68A25CE2594A5850025157C /* Double Cola */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Double Cola"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,6 +178,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A67D84FD2595A236003EBE2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67D85132595AA61003EBE2C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -236,6 +255,7 @@
 				A68A25CF2594A5850025157C /* Double Cola */,
 				A68A25E32594B8870025157C /* The Supermarket Queue */,
 				A67D85012595A236003EBE2C /* Playing with digits */,
+				A67D85172595AA61003EBE2C /* Vasya - Clerk */,
 				A670B06725888B75000986DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -254,6 +274,7 @@
 				A68A25CE2594A5850025157C /* Double Cola */,
 				A68A25E22594B8870025157C /* The Supermarket Queue */,
 				A67D85002595A236003EBE2C /* Playing with digits */,
+				A67D85162595AA61003EBE2C /* Vasya - Clerk */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -272,6 +293,14 @@
 				A67D85022595A236003EBE2C /* main.cpp */,
 			);
 			path = "Playing with digits";
+			sourceTree = "<group>";
+		};
+		A67D85172595AA61003EBE2C /* Vasya - Clerk */ = {
+			isa = PBXGroup;
+			children = (
+				A67D85182595AA61003EBE2C /* main.cpp */,
+			);
+			path = "Vasya - Clerk";
 			sourceTree = "<group>";
 		};
 		A68A25BC259304680025157C /* Unique In Order */ = {
@@ -399,6 +428,23 @@
 			name = "Playing with digits";
 			productName = "Playing with digits";
 			productReference = A67D85002595A236003EBE2C /* Playing with digits */;
+			productType = "com.apple.product-type.tool";
+		};
+		A67D85152595AA61003EBE2C /* Vasya - Clerk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67D851A2595AA61003EBE2C /* Build configuration list for PBXNativeTarget "Vasya - Clerk" */;
+			buildPhases = (
+				A67D85122595AA61003EBE2C /* Sources */,
+				A67D85132595AA61003EBE2C /* Frameworks */,
+				A67D85142595AA61003EBE2C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vasya - Clerk";
+			productName = "Vasya - Clerk";
+			productReference = A67D85162595AA61003EBE2C /* Vasya - Clerk */;
 			productType = "com.apple.product-type.tool";
 		};
 		A68A25BA259304680025157C /* Unique In Order */ = {
@@ -540,6 +586,9 @@
 					A67D84FF2595A236003EBE2C = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					A67D85152595AA61003EBE2C = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					A68A25BA259304680025157C = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -587,6 +636,7 @@
 				A68A25CD2594A5850025157C /* Double Cola */,
 				A68A25E12594B8870025157C /* The Supermarket Queue */,
 				A67D84FF2595A236003EBE2C /* Playing with digits */,
+				A67D85152595AA61003EBE2C /* Vasya - Clerk */,
 			);
 		};
 /* End PBXProject section */
@@ -619,6 +669,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A67D85032595A236003EBE2C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67D85122595AA61003EBE2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67D85192595AA61003EBE2C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -858,6 +916,24 @@
 			};
 			name = Release;
 		};
+		A67D851B2595AA61003EBE2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A67D851C2595AA61003EBE2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		A68A25BF259304680025157C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1028,6 +1104,15 @@
 			buildConfigurations = (
 				A67D85042595A236003EBE2C /* Debug */,
 				A67D85052595A236003EBE2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A67D851A2595AA61003EBE2C /* Build configuration list for PBXNativeTarget "Vasya - Clerk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67D851B2595AA61003EBE2C /* Debug */,
+				A67D851C2595AA61003EBE2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
