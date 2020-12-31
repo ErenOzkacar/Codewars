@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A6393F9E259DB0BA00ABDAB6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6393F9D259DB0BA00ABDAB6 /* main.cpp */; };
+		A6393FB7259DBDC800ABDAB6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6393FB6259DBDC800ABDAB6 /* main.cpp */; };
 		A670B08525889AE2000986DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A670B08425889AE2000986DB /* main.cpp */; };
 		A67D85032595A236003EBE2C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A67D85022595A236003EBE2C /* main.cpp */; };
 		A67D85192595AA61003EBE2C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A67D85182595AA61003EBE2C /* main.cpp */; };
@@ -31,7 +32,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		A670B06425888B75000986DB /* CopyFiles */ = {
+		A6393FB2259DBDC800ABDAB6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -153,7 +154,8 @@
 /* Begin PBXFileReference section */
 		A6393F9B259DB0BA00ABDAB6 /* Rot13 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Rot13; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6393F9D259DB0BA00ABDAB6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		A670B06625888B75000986DB /* Codewars */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Codewars; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6393FB4259DBDC800ABDAB6 /* Primes in numbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Primes in numbers"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6393FB6259DBDC800ABDAB6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A670B07525888C10000986DB /* Spinning words */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Spinning words"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A670B08225889AE2000986DB /* Stop gninnipS My sdroW! */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Stop gninnipS My sdroW!"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A670B08425889AE2000986DB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -187,7 +189,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A670B06325888B75000986DB /* Frameworks */ = {
+		A6393FB1259DBDC800ABDAB6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -289,6 +291,14 @@
 			path = Rot13;
 			sourceTree = "<group>";
 		};
+		A6393FB5259DBDC800ABDAB6 /* Primes in numbers */ = {
+			isa = PBXGroup;
+			children = (
+				A6393FB6259DBDC800ABDAB6 /* main.cpp */,
+			);
+			path = "Primes in numbers";
+			sourceTree = "<group>";
+		};
 		A670B05D25888B75000986DB = {
 			isa = PBXGroup;
 			children = (
@@ -304,6 +314,7 @@
 				A67D85172595AA61003EBE2C /* Vasya - Clerk */,
 				A67D852E2595B832003EBE2C /* Tribonacci Sequence */,
 				A6393F9C259DB0BA00ABDAB6 /* Rot13 */,
+				A6393FB5259DBDC800ABDAB6 /* Primes in numbers */,
 				A670B06725888B75000986DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -311,7 +322,6 @@
 		A670B06725888B75000986DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A670B06625888B75000986DB /* Codewars */,
 				A670B07525888C10000986DB /* Spinning words */,
 				A670B08225889AE2000986DB /* Stop gninnipS My sdroW! */,
 				A6E7B15B25920E6D0063BEFF /* Multiples of 3 or 5 */,
@@ -325,6 +335,7 @@
 				A67D85162595AA61003EBE2C /* Vasya - Clerk */,
 				A67D852D2595B832003EBE2C /* Tribonacci Sequence */,
 				A6393F9B259DB0BA00ABDAB6 /* Rot13 */,
+				A6393FB4259DBDC800ABDAB6 /* Primes in numbers */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -437,21 +448,21 @@
 			productReference = A6393F9B259DB0BA00ABDAB6 /* Rot13 */;
 			productType = "com.apple.product-type.tool";
 		};
-		A670B06525888B75000986DB /* Codewars */ = {
+		A6393FB3259DBDC800ABDAB6 /* Primes in numbers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A670B06D25888B75000986DB /* Build configuration list for PBXNativeTarget "Codewars" */;
+			buildConfigurationList = A6393FB8259DBDC800ABDAB6 /* Build configuration list for PBXNativeTarget "Primes in numbers" */;
 			buildPhases = (
-				A670B06225888B75000986DB /* Sources */,
-				A670B06325888B75000986DB /* Frameworks */,
-				A670B06425888B75000986DB /* CopyFiles */,
+				A6393FB0259DBDC800ABDAB6 /* Sources */,
+				A6393FB1259DBDC800ABDAB6 /* Frameworks */,
+				A6393FB2259DBDC800ABDAB6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Codewars;
-			productName = Codewars;
-			productReference = A670B06625888B75000986DB /* Codewars */;
+			name = "Primes in numbers";
+			productName = "Primes in numbers";
+			productReference = A6393FB4259DBDC800ABDAB6 /* Primes in numbers */;
 			productType = "com.apple.product-type.tool";
 		};
 		A670B07425888C10000986DB /* Spinning words */ = {
@@ -669,7 +680,7 @@
 					A6393F9A259DB0BA00ABDAB6 = {
 						CreatedOnToolsVersion = 12.3;
 					};
-					A670B06525888B75000986DB = {
+					A6393FB3259DBDC800ABDAB6 = {
 						CreatedOnToolsVersion = 12.3;
 					};
 					A670B07425888C10000986DB = {
@@ -723,7 +734,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A670B06525888B75000986DB /* Codewars */,
 				A670B07425888C10000986DB /* Spinning words */,
 				A670B08125889AE2000986DB /* Stop gninnipS My sdroW! */,
 				A6E7B15A25920E6D0063BEFF /* Multiples of 3 or 5 */,
@@ -737,6 +747,7 @@
 				A67D85152595AA61003EBE2C /* Vasya - Clerk */,
 				A67D852C2595B832003EBE2C /* Tribonacci Sequence */,
 				A6393F9A259DB0BA00ABDAB6 /* Rot13 */,
+				A6393FB3259DBDC800ABDAB6 /* Primes in numbers */,
 			);
 		};
 /* End PBXProject section */
@@ -750,10 +761,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A670B06225888B75000986DB /* Sources */ = {
+		A6393FB0259DBDC800ABDAB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6393FB7259DBDC800ABDAB6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -873,6 +885,24 @@
 			};
 			name = Release;
 		};
+		A6393FB9259DBDC800ABDAB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6393FBA259DBDC800ABDAB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		A670B06B25888B75000986DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -981,22 +1011,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		A670B06E25888B75000986DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		A670B06F25888B75000986DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -1224,20 +1238,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A6393FB8259DBDC800ABDAB6 /* Build configuration list for PBXNativeTarget "Primes in numbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6393FB9259DBDC800ABDAB6 /* Debug */,
+				A6393FBA259DBDC800ABDAB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A670B06125888B75000986DB /* Build configuration list for PBXProject "Codewars" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A670B06B25888B75000986DB /* Debug */,
 				A670B06C25888B75000986DB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A670B06D25888B75000986DB /* Build configuration list for PBXNativeTarget "Codewars" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A670B06E25888B75000986DB /* Debug */,
-				A670B06F25888B75000986DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
