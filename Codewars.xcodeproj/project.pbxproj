@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6393F9E259DB0BA00ABDAB6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6393F9D259DB0BA00ABDAB6 /* main.cpp */; };
 		A670B08525889AE2000986DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A670B08425889AE2000986DB /* main.cpp */; };
 		A67D85032595A236003EBE2C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A67D85022595A236003EBE2C /* main.cpp */; };
 		A67D85192595AA61003EBE2C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A67D85182595AA61003EBE2C /* main.cpp */; };
@@ -21,6 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		A6393F99259DB0BA00ABDAB6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		A670B06425888B75000986DB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,6 +151,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A6393F9B259DB0BA00ABDAB6 /* Rot13 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Rot13; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6393F9D259DB0BA00ABDAB6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A670B06625888B75000986DB /* Codewars */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Codewars; sourceTree = BUILT_PRODUCTS_DIR; };
 		A670B07525888C10000986DB /* Spinning words */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Spinning words"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A670B08225889AE2000986DB /* Stop gninnipS My sdroW! */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Stop gninnipS My sdroW!"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,6 +180,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A6393F98259DB0BA00ABDAB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A670B06325888B75000986DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -262,6 +281,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6393F9C259DB0BA00ABDAB6 /* Rot13 */ = {
+			isa = PBXGroup;
+			children = (
+				A6393F9D259DB0BA00ABDAB6 /* main.cpp */,
+			);
+			path = Rot13;
+			sourceTree = "<group>";
+		};
 		A670B05D25888B75000986DB = {
 			isa = PBXGroup;
 			children = (
@@ -276,6 +303,7 @@
 				A67D85012595A236003EBE2C /* Playing with digits */,
 				A67D85172595AA61003EBE2C /* Vasya - Clerk */,
 				A67D852E2595B832003EBE2C /* Tribonacci Sequence */,
+				A6393F9C259DB0BA00ABDAB6 /* Rot13 */,
 				A670B06725888B75000986DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -296,6 +324,7 @@
 				A67D85002595A236003EBE2C /* Playing with digits */,
 				A67D85162595AA61003EBE2C /* Vasya - Clerk */,
 				A67D852D2595B832003EBE2C /* Tribonacci Sequence */,
+				A6393F9B259DB0BA00ABDAB6 /* Rot13 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -391,6 +420,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A6393F9A259DB0BA00ABDAB6 /* Rot13 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6393FA1259DB0BA00ABDAB6 /* Build configuration list for PBXNativeTarget "Rot13" */;
+			buildPhases = (
+				A6393F97259DB0BA00ABDAB6 /* Sources */,
+				A6393F98259DB0BA00ABDAB6 /* Frameworks */,
+				A6393F99259DB0BA00ABDAB6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rot13;
+			productName = Rot13;
+			productReference = A6393F9B259DB0BA00ABDAB6 /* Rot13 */;
+			productType = "com.apple.product-type.tool";
+		};
 		A670B06525888B75000986DB /* Codewars */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A670B06D25888B75000986DB /* Build configuration list for PBXNativeTarget "Codewars" */;
@@ -620,6 +666,9 @@
 			attributes = {
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					A6393F9A259DB0BA00ABDAB6 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					A670B06525888B75000986DB = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -687,11 +736,20 @@
 				A67D84FF2595A236003EBE2C /* Playing with digits */,
 				A67D85152595AA61003EBE2C /* Vasya - Clerk */,
 				A67D852C2595B832003EBE2C /* Tribonacci Sequence */,
+				A6393F9A259DB0BA00ABDAB6 /* Rot13 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A6393F97259DB0BA00ABDAB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6393F9E259DB0BA00ABDAB6 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A670B06225888B75000986DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -797,6 +855,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		A6393F9F259DB0BA00ABDAB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6393FA0259DB0BA00ABDAB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		A670B06B25888B75000986DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1139,6 +1215,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A6393FA1259DB0BA00ABDAB6 /* Build configuration list for PBXNativeTarget "Rot13" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6393F9F259DB0BA00ABDAB6 /* Debug */,
+				A6393FA0259DB0BA00ABDAB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A670B06125888B75000986DB /* Build configuration list for PBXProject "Codewars" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
