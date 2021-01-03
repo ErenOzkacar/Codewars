@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>Connect Four.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
 		<key>Double Cola.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>

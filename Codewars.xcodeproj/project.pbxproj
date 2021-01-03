@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A61E37CC25A1E1E400BF9E64 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A61E37CB25A1E1E400BF9E64 /* main.cpp */; };
+		A61E37E625A1EF4F00BF9E64 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A61E37E525A1EF4F00BF9E64 /* main.cpp */; };
 		A6393F9E259DB0BA00ABDAB6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6393F9D259DB0BA00ABDAB6 /* main.cpp */; };
 		A6393FB7259DBDC800ABDAB6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6393FB6259DBDC800ABDAB6 /* main.cpp */; };
 		A670B08525889AE2000986DB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A670B08425889AE2000986DB /* main.cpp */; };
@@ -25,6 +26,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		A61E37C725A1E1E400BF9E64 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A61E37E125A1EF4F00BF9E64 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -164,6 +174,8 @@
 /* Begin PBXFileReference section */
 		A61E37C925A1E1E400BF9E64 /* Product of consecutive Fib numbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Product of consecutive Fib numbers"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61E37CB25A1E1E400BF9E64 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A61E37E325A1EF4F00BF9E64 /* Connect Four */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Connect Four"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61E37E525A1EF4F00BF9E64 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A6393F9B259DB0BA00ABDAB6 /* Rot13 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Rot13; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6393F9D259DB0BA00ABDAB6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A6393FB4259DBDC800ABDAB6 /* Primes in numbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Primes in numbers"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,6 +207,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		A61E37C625A1E1E400BF9E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61E37E025A1EF4F00BF9E64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -310,6 +329,14 @@
 			path = "Product of consecutive Fib numbers";
 			sourceTree = "<group>";
 		};
+		A61E37E425A1EF4F00BF9E64 /* Connect Four */ = {
+			isa = PBXGroup;
+			children = (
+				A61E37E525A1EF4F00BF9E64 /* main.cpp */,
+			);
+			path = "Connect Four";
+			sourceTree = "<group>";
+		};
 		A6393F9C259DB0BA00ABDAB6 /* Rot13 */ = {
 			isa = PBXGroup;
 			children = (
@@ -343,6 +370,7 @@
 				A6393F9C259DB0BA00ABDAB6 /* Rot13 */,
 				A6393FB5259DBDC800ABDAB6 /* Primes in numbers */,
 				A61E37CA25A1E1E400BF9E64 /* Product of consecutive Fib numbers */,
+				A61E37E425A1EF4F00BF9E64 /* Connect Four */,
 				A670B06725888B75000986DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -365,6 +393,7 @@
 				A6393F9B259DB0BA00ABDAB6 /* Rot13 */,
 				A6393FB4259DBDC800ABDAB6 /* Primes in numbers */,
 				A61E37C925A1E1E400BF9E64 /* Product of consecutive Fib numbers */,
+				A61E37E325A1EF4F00BF9E64 /* Connect Four */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -475,6 +504,23 @@
 			name = "Product of consecutive Fib numbers";
 			productName = "Product of consecutive Fib numbers";
 			productReference = A61E37C925A1E1E400BF9E64 /* Product of consecutive Fib numbers */;
+			productType = "com.apple.product-type.tool";
+		};
+		A61E37E225A1EF4F00BF9E64 /* Connect Four */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61E37E725A1EF4F00BF9E64 /* Build configuration list for PBXNativeTarget "Connect Four" */;
+			buildPhases = (
+				A61E37DF25A1EF4F00BF9E64 /* Sources */,
+				A61E37E025A1EF4F00BF9E64 /* Frameworks */,
+				A61E37E125A1EF4F00BF9E64 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Connect Four";
+			productName = "Connect Four";
+			productReference = A61E37E325A1EF4F00BF9E64 /* Connect Four */;
 			productType = "com.apple.product-type.tool";
 		};
 		A6393F9A259DB0BA00ABDAB6 /* Rot13 */ = {
@@ -726,6 +772,9 @@
 					A61E37C825A1E1E400BF9E64 = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					A61E37E225A1EF4F00BF9E64 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					A6393F9A259DB0BA00ABDAB6 = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -798,6 +847,7 @@
 				A6393F9A259DB0BA00ABDAB6 /* Rot13 */,
 				A6393FB3259DBDC800ABDAB6 /* Primes in numbers */,
 				A61E37C825A1E1E400BF9E64 /* Product of consecutive Fib numbers */,
+				A61E37E225A1EF4F00BF9E64 /* Connect Four */,
 			);
 		};
 /* End PBXProject section */
@@ -808,6 +858,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A61E37CC25A1E1E400BF9E64 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61E37DF25A1EF4F00BF9E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61E37E625A1EF4F00BF9E64 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -935,6 +993,24 @@
 			name = Debug;
 		};
 		A61E37CE25A1E1E400BF9E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A61E37E825A1EF4F00BF9E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A61E37E925A1EF4F00BF9E64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1310,6 +1386,15 @@
 			buildConfigurations = (
 				A61E37CD25A1E1E400BF9E64 /* Debug */,
 				A61E37CE25A1E1E400BF9E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61E37E725A1EF4F00BF9E64 /* Build configuration list for PBXNativeTarget "Connect Four" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61E37E825A1EF4F00BF9E64 /* Debug */,
+				A61E37E925A1EF4F00BF9E64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
