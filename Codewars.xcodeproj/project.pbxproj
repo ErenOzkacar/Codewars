@@ -16,6 +16,7 @@
 		A67D85192595AA61003EBE2C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A67D85182595AA61003EBE2C /* main.cpp */; };
 		A67D85302595B832003EBE2C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A67D852F2595B832003EBE2C /* main.cpp */; };
 		A67EF93C25AF568000697C48 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A67EF93B25AF568000697C48 /* main.cpp */; };
+		A67EF95825AF711200697C48 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A67EF95725AF711200697C48 /* main.cpp */; };
 		A68A25BE259304680025157C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A68A25BD259304680025157C /* main.cpp */; };
 		A68A25D12594A5850025157C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A68A25D02594A5850025157C /* main.cpp */; };
 		A68A25E52594B8870025157C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A68A25E42594B8870025157C /* main.cpp */; };
@@ -23,6 +24,8 @@
 		A6E7B16D259213E10063BEFF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6E7B16C259213E10063BEFF /* main.cpp */; };
 		A6E7B17D25921AF10063BEFF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6E7B17C25921AF10063BEFF /* main.cpp */; };
 		A6E7B18E25922FB70063BEFF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6E7B18D25922FB70063BEFF /* main.cpp */; };
+		A6F0340C25B629C5005E50FB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6F0340B25B629C5005E50FB /* main.cpp */; };
+		A6F0342A25B635DA005E50FB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6F0342925B635DA005E50FB /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -116,6 +119,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		A67EF95325AF711200697C48 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		A68A25B9259304680025157C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -179,6 +191,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		A6F0340725B629C5005E50FB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A6F0342525B635DA005E50FB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -201,6 +231,8 @@
 		A67D852F2595B832003EBE2C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A67EF93925AF568000697C48 /* Human readable duration format */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Human readable duration format"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67EF93B25AF568000697C48 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A67EF95525AF711200697C48 /* Counting Change Combinations */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Counting Change Combinations"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67EF95725AF711200697C48 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A68A25BB259304680025157C /* Unique In Order */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Unique In Order"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68A25BD259304680025157C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A68A25CE2594A5850025157C /* Double Cola */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Double Cola"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -215,6 +247,10 @@
 		A6E7B17C25921AF10063BEFF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A6E7B18B25922FB70063BEFF /* A square of squares */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "A square of squares"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E7B18D25922FB70063BEFF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A6F0340925B629C5005E50FB /* Sum Strings as Numbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sum Strings as Numbers"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F0340B25B629C5005E50FB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A6F0342725B635DA005E50FB /* RGB To Hex Conversion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "RGB To Hex Conversion"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F0342925B635DA005E50FB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -288,6 +324,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A67EF95225AF711200697C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A68A25B8259304680025157C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,6 +374,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A6E7B18825922FB70063BEFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F0340625B629C5005E50FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F0342425B635DA005E50FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -391,6 +448,9 @@
 				A61E37CA25A1E1E400BF9E64 /* Product of consecutive Fib numbers */,
 				A61E37E425A1EF4F00BF9E64 /* Connect Four */,
 				A67EF93A25AF568000697C48 /* Human readable duration format */,
+				A67EF95625AF711200697C48 /* Counting Change Combinations */,
+				A6F0340A25B629C5005E50FB /* Sum Strings as Numbers */,
+				A6F0342825B635DA005E50FB /* RGB To Hex Conversion */,
 				A670B06725888B75000986DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -415,6 +475,9 @@
 				A61E37C925A1E1E400BF9E64 /* Product of consecutive Fib numbers */,
 				A61E37E325A1EF4F00BF9E64 /* Connect Four */,
 				A67EF93925AF568000697C48 /* Human readable duration format */,
+				A67EF95525AF711200697C48 /* Counting Change Combinations */,
+				A6F0340925B629C5005E50FB /* Sum Strings as Numbers */,
+				A6F0342725B635DA005E50FB /* RGB To Hex Conversion */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -457,6 +520,14 @@
 				A67EF93B25AF568000697C48 /* main.cpp */,
 			);
 			path = "Human readable duration format";
+			sourceTree = "<group>";
+		};
+		A67EF95625AF711200697C48 /* Counting Change Combinations */ = {
+			isa = PBXGroup;
+			children = (
+				A67EF95725AF711200697C48 /* main.cpp */,
+			);
+			path = "Counting Change Combinations";
 			sourceTree = "<group>";
 		};
 		A68A25BC259304680025157C /* Unique In Order */ = {
@@ -513,6 +584,22 @@
 				A6E7B18D25922FB70063BEFF /* main.cpp */,
 			);
 			path = "A square of squares";
+			sourceTree = "<group>";
+		};
+		A6F0340A25B629C5005E50FB /* Sum Strings as Numbers */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0340B25B629C5005E50FB /* main.cpp */,
+			);
+			path = "Sum Strings as Numbers";
+			sourceTree = "<group>";
+		};
+		A6F0342825B635DA005E50FB /* RGB To Hex Conversion */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0342925B635DA005E50FB /* main.cpp */,
+			);
+			path = "RGB To Hex Conversion";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -688,6 +775,23 @@
 			productReference = A67EF93925AF568000697C48 /* Human readable duration format */;
 			productType = "com.apple.product-type.tool";
 		};
+		A67EF95425AF711200697C48 /* Counting Change Combinations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67EF95925AF711200697C48 /* Build configuration list for PBXNativeTarget "Counting Change Combinations" */;
+			buildPhases = (
+				A67EF95125AF711200697C48 /* Sources */,
+				A67EF95225AF711200697C48 /* Frameworks */,
+				A67EF95325AF711200697C48 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Counting Change Combinations";
+			productName = "Counting Change Combinations";
+			productReference = A67EF95525AF711200697C48 /* Counting Change Combinations */;
+			productType = "com.apple.product-type.tool";
+		};
 		A68A25BA259304680025157C /* Unique In Order */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A68A25C1259304680025157C /* Build configuration list for PBXNativeTarget "Unique In Order" */;
@@ -807,6 +911,40 @@
 			productReference = A6E7B18B25922FB70063BEFF /* A square of squares */;
 			productType = "com.apple.product-type.tool";
 		};
+		A6F0340825B629C5005E50FB /* Sum Strings as Numbers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F0340F25B629C5005E50FB /* Build configuration list for PBXNativeTarget "Sum Strings as Numbers" */;
+			buildPhases = (
+				A6F0340525B629C5005E50FB /* Sources */,
+				A6F0340625B629C5005E50FB /* Frameworks */,
+				A6F0340725B629C5005E50FB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sum Strings as Numbers";
+			productName = "Sum Strings as Numbers";
+			productReference = A6F0340925B629C5005E50FB /* Sum Strings as Numbers */;
+			productType = "com.apple.product-type.tool";
+		};
+		A6F0342625B635DA005E50FB /* RGB To Hex Conversion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F0342B25B635DA005E50FB /* Build configuration list for PBXNativeTarget "RGB To Hex Conversion" */;
+			buildPhases = (
+				A6F0342325B635DA005E50FB /* Sources */,
+				A6F0342425B635DA005E50FB /* Frameworks */,
+				A6F0342525B635DA005E50FB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RGB To Hex Conversion";
+			productName = "RGB To Hex Conversion";
+			productReference = A6F0342725B635DA005E50FB /* RGB To Hex Conversion */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -845,6 +983,9 @@
 					A67EF93825AF568000697C48 = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					A67EF95425AF711200697C48 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					A68A25BA259304680025157C = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -864,6 +1005,12 @@
 						CreatedOnToolsVersion = 12.3;
 					};
 					A6E7B18A25922FB70063BEFF = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					A6F0340825B629C5005E50FB = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					A6F0342625B635DA005E50FB = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
@@ -898,6 +1045,9 @@
 				A61E37C825A1E1E400BF9E64 /* Product of consecutive Fib numbers */,
 				A61E37E225A1EF4F00BF9E64 /* Connect Four */,
 				A67EF93825AF568000697C48 /* Human readable duration format */,
+				A67EF95425AF711200697C48 /* Counting Change Combinations */,
+				A6F0340825B629C5005E50FB /* Sum Strings as Numbers */,
+				A6F0342625B635DA005E50FB /* RGB To Hex Conversion */,
 			);
 		};
 /* End PBXProject section */
@@ -982,6 +1132,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A67EF95125AF711200697C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67EF95825AF711200697C48 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A68A25B7259304680025157C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1035,6 +1193,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6E7B18E25922FB70063BEFF /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F0340525B629C5005E50FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F0340C25B629C5005E50FB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F0342325B635DA005E50FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F0342A25B635DA005E50FB /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1328,6 +1502,24 @@
 			};
 			name = Release;
 		};
+		A67EF95A25AF711200697C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A67EF95B25AF711200697C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		A68A25BF259304680025157C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1454,6 +1646,42 @@
 			};
 			name = Release;
 		};
+		A6F0340D25B629C5005E50FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6F0340E25B629C5005E50FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A6F0342C25B635DA005E50FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6F0342D25B635DA005E50FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1556,6 +1784,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A67EF95925AF711200697C48 /* Build configuration list for PBXNativeTarget "Counting Change Combinations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67EF95A25AF711200697C48 /* Debug */,
+				A67EF95B25AF711200697C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A68A25C1259304680025157C /* Build configuration list for PBXNativeTarget "Unique In Order" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1615,6 +1852,24 @@
 			buildConfigurations = (
 				A6E7B18F25922FB70063BEFF /* Debug */,
 				A6E7B19025922FB70063BEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F0340F25B629C5005E50FB /* Build configuration list for PBXNativeTarget "Sum Strings as Numbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F0340D25B629C5005E50FB /* Debug */,
+				A6F0340E25B629C5005E50FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F0342B25B635DA005E50FB /* Build configuration list for PBXNativeTarget "RGB To Hex Conversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F0342C25B635DA005E50FB /* Debug */,
+				A6F0342D25B635DA005E50FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
