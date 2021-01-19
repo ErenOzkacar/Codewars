@@ -26,6 +26,7 @@
 		A6E7B18E25922FB70063BEFF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6E7B18D25922FB70063BEFF /* main.cpp */; };
 		A6F0340C25B629C5005E50FB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6F0340B25B629C5005E50FB /* main.cpp */; };
 		A6F0342A25B635DA005E50FB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6F0342925B635DA005E50FB /* main.cpp */; };
+		A6F0344925B64263005E50FB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6F0344825B64263005E50FB /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -209,6 +210,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		A6F0344425B64262005E50FB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -251,6 +261,8 @@
 		A6F0340B25B629C5005E50FB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A6F0342725B635DA005E50FB /* RGB To Hex Conversion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "RGB To Hex Conversion"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F0342925B635DA005E50FB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A6F0344625B64262005E50FB /* The observed PIN */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "The observed PIN"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F0344825B64263005E50FB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -394,6 +406,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A6F0344325B64262005E50FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -451,6 +470,7 @@
 				A67EF95625AF711200697C48 /* Counting Change Combinations */,
 				A6F0340A25B629C5005E50FB /* Sum Strings as Numbers */,
 				A6F0342825B635DA005E50FB /* RGB To Hex Conversion */,
+				A6F0344725B64263005E50FB /* The observed PIN */,
 				A670B06725888B75000986DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -478,6 +498,7 @@
 				A67EF95525AF711200697C48 /* Counting Change Combinations */,
 				A6F0340925B629C5005E50FB /* Sum Strings as Numbers */,
 				A6F0342725B635DA005E50FB /* RGB To Hex Conversion */,
+				A6F0344625B64262005E50FB /* The observed PIN */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -600,6 +621,14 @@
 				A6F0342925B635DA005E50FB /* main.cpp */,
 			);
 			path = "RGB To Hex Conversion";
+			sourceTree = "<group>";
+		};
+		A6F0344725B64263005E50FB /* The observed PIN */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0344825B64263005E50FB /* main.cpp */,
+			);
+			path = "The observed PIN";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -945,6 +974,23 @@
 			productReference = A6F0342725B635DA005E50FB /* RGB To Hex Conversion */;
 			productType = "com.apple.product-type.tool";
 		};
+		A6F0344525B64262005E50FB /* The observed PIN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F0344A25B64263005E50FB /* Build configuration list for PBXNativeTarget "The observed PIN" */;
+			buildPhases = (
+				A6F0344225B64262005E50FB /* Sources */,
+				A6F0344325B64262005E50FB /* Frameworks */,
+				A6F0344425B64262005E50FB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The observed PIN";
+			productName = "The observed PIN";
+			productReference = A6F0344625B64262005E50FB /* The observed PIN */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1013,6 +1059,9 @@
 					A6F0342625B635DA005E50FB = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					A6F0344525B64262005E50FB = {
+						CreatedOnToolsVersion = 12.3;
+					};
 				};
 			};
 			buildConfigurationList = A670B06125888B75000986DB /* Build configuration list for PBXProject "Codewars" */;
@@ -1048,6 +1097,7 @@
 				A67EF95425AF711200697C48 /* Counting Change Combinations */,
 				A6F0340825B629C5005E50FB /* Sum Strings as Numbers */,
 				A6F0342625B635DA005E50FB /* RGB To Hex Conversion */,
+				A6F0344525B64262005E50FB /* The observed PIN */,
 			);
 		};
 /* End PBXProject section */
@@ -1209,6 +1259,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6F0342A25B635DA005E50FB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F0344225B64262005E50FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F0344925B64263005E50FB /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1682,6 +1740,24 @@
 			};
 			name = Release;
 		};
+		A6F0344B25B64263005E50FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6F0344C25B64263005E50FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1870,6 +1946,15 @@
 			buildConfigurations = (
 				A6F0342C25B635DA005E50FB /* Debug */,
 				A6F0342D25B635DA005E50FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F0344A25B64263005E50FB /* Build configuration list for PBXNativeTarget "The observed PIN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F0344B25B64263005E50FB /* Debug */,
+				A6F0344C25B64263005E50FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
