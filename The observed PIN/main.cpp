@@ -108,7 +108,7 @@ vector<string> get_pins(string observed) {
 }
 
 int main(int argc, const char * argv[]) {
-    vector<string> possiblePINS {get_pins("12")};
+    vector<string> possiblePINS {get_pins("1678")};
     for (unsigned int i = 0; i < possiblePINS.size(); ++i) {
         cout << possiblePINS[i] << '\n';
     }
