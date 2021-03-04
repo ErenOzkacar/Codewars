@@ -20,6 +20,7 @@
 		A68A25BE259304680025157C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A68A25BD259304680025157C /* main.cpp */; };
 		A68A25D12594A5850025157C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A68A25D02594A5850025157C /* main.cpp */; };
 		A68A25E52594B8870025157C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A68A25E42594B8870025157C /* main.cpp */; };
+		A6A2528B25F06FE700321AEB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6A2528A25F06FE700321AEB /* main.cpp */; };
 		A6E7B15E25920E6D0063BEFF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6E7B15D25920E6D0063BEFF /* main.cpp */; };
 		A6E7B16D259213E10063BEFF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6E7B16C259213E10063BEFF /* main.cpp */; };
 		A6E7B17D25921AF10063BEFF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6E7B17C25921AF10063BEFF /* main.cpp */; };
@@ -156,6 +157,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		A6A2528625F06FE700321AEB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		A6E7B15925920E6D0063BEFF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,6 +259,8 @@
 		A68A25D02594A5850025157C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A68A25E22594B8870025157C /* The Supermarket Queue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "The Supermarket Queue"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68A25E42594B8870025157C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A6A2528825F06FE700321AEB /* Matrix Determinant */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Matrix Determinant"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A2528A25F06FE700321AEB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A6E7B15B25920E6D0063BEFF /* Multiples of 3 or 5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Multiples of 3 or 5"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E7B15D25920E6D0063BEFF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A6E7B16A259213E10063BEFF /* Bit Counting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Bit Counting"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -364,6 +376,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A6A2528525F06FE700321AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6E7B15825920E6D0063BEFF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -471,6 +490,7 @@
 				A6F0340A25B629C5005E50FB /* Sum Strings as Numbers */,
 				A6F0342825B635DA005E50FB /* RGB To Hex Conversion */,
 				A6F0344725B64263005E50FB /* The observed PIN */,
+				A6A2528925F06FE700321AEB /* Matrix Determinant */,
 				A670B06725888B75000986DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -499,6 +519,7 @@
 				A6F0340925B629C5005E50FB /* Sum Strings as Numbers */,
 				A6F0342725B635DA005E50FB /* RGB To Hex Conversion */,
 				A6F0344625B64262005E50FB /* The observed PIN */,
+				A6A2528825F06FE700321AEB /* Matrix Determinant */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -573,6 +594,14 @@
 				A68A25E42594B8870025157C /* main.cpp */,
 			);
 			path = "The Supermarket Queue";
+			sourceTree = "<group>";
+		};
+		A6A2528925F06FE700321AEB /* Matrix Determinant */ = {
+			isa = PBXGroup;
+			children = (
+				A6A2528A25F06FE700321AEB /* main.cpp */,
+			);
+			path = "Matrix Determinant";
 			sourceTree = "<group>";
 		};
 		A6E7B15C25920E6D0063BEFF /* Multiples of 3 or 5 */ = {
@@ -872,6 +901,23 @@
 			productReference = A68A25E22594B8870025157C /* The Supermarket Queue */;
 			productType = "com.apple.product-type.tool";
 		};
+		A6A2528725F06FE700321AEB /* Matrix Determinant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A2528E25F06FE700321AEB /* Build configuration list for PBXNativeTarget "Matrix Determinant" */;
+			buildPhases = (
+				A6A2528425F06FE700321AEB /* Sources */,
+				A6A2528525F06FE700321AEB /* Frameworks */,
+				A6A2528625F06FE700321AEB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Matrix Determinant";
+			productName = "Matrix Determinant";
+			productReference = A6A2528825F06FE700321AEB /* Matrix Determinant */;
+			productType = "com.apple.product-type.tool";
+		};
 		A6E7B15A25920E6D0063BEFF /* Multiples of 3 or 5 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6E7B16125920E6D0063BEFF /* Build configuration list for PBXNativeTarget "Multiples of 3 or 5" */;
@@ -997,7 +1043,7 @@
 		A670B05E25888B75000986DB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1230;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					A61E37C825A1E1E400BF9E64 = {
 						CreatedOnToolsVersion = 12.3;
@@ -1040,6 +1086,9 @@
 					};
 					A68A25E12594B8870025157C = {
 						CreatedOnToolsVersion = 12.3;
+					};
+					A6A2528725F06FE700321AEB = {
+						CreatedOnToolsVersion = 12.4;
 					};
 					A6E7B15A25920E6D0063BEFF = {
 						CreatedOnToolsVersion = 12.3;
@@ -1098,6 +1147,7 @@
 				A6F0340825B629C5005E50FB /* Sum Strings as Numbers */,
 				A6F0342625B635DA005E50FB /* RGB To Hex Conversion */,
 				A6F0344525B64262005E50FB /* The observed PIN */,
+				A6A2528725F06FE700321AEB /* Matrix Determinant */,
 			);
 		};
 /* End PBXProject section */
@@ -1214,6 +1264,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A6A2528425F06FE700321AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A2528B25F06FE700321AEB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6E7B15725920E6D0063BEFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1276,6 +1334,7 @@
 		A61E37CD25A1E1E400BF9E64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1285,6 +1344,7 @@
 		A61E37CE25A1E1E400BF9E64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1294,6 +1354,7 @@
 		A61E37E825A1EF4F00BF9E64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1303,6 +1364,7 @@
 		A61E37E925A1EF4F00BF9E64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1312,6 +1374,7 @@
 		A6393F9F259DB0BA00ABDAB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1321,6 +1384,7 @@
 		A6393FA0259DB0BA00ABDAB6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1330,6 +1394,7 @@
 		A6393FB9259DBDC800ABDAB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1339,6 +1404,7 @@
 		A6393FBA259DBDC800ABDAB6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1459,6 +1525,7 @@
 		A670B07A25888C10000986DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1467,6 +1534,7 @@
 		A670B07B25888C10000986DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1475,6 +1543,7 @@
 		A670B08725889AE2000986DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1483,6 +1552,7 @@
 		A670B08825889AE2000986DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1491,6 +1561,7 @@
 		A67D85042595A236003EBE2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1500,6 +1571,7 @@
 		A67D85052595A236003EBE2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1509,6 +1581,7 @@
 		A67D851B2595AA61003EBE2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1518,6 +1591,7 @@
 		A67D851C2595AA61003EBE2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1527,6 +1601,7 @@
 		A67D85322595B832003EBE2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1536,6 +1611,7 @@
 		A67D85332595B832003EBE2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1545,6 +1621,7 @@
 		A67EF93D25AF568000697C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1554,6 +1631,7 @@
 		A67EF93E25AF568000697C48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1563,6 +1641,7 @@
 		A67EF95A25AF711200697C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1572,6 +1651,7 @@
 		A67EF95B25AF711200697C48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1581,6 +1661,7 @@
 		A68A25BF259304680025157C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1590,6 +1671,7 @@
 		A68A25C0259304680025157C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1599,6 +1681,7 @@
 		A68A25D32594A5850025157C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1608,6 +1691,7 @@
 		A68A25D42594A5850025157C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1617,6 +1701,7 @@
 		A68A25E72594B8870025157C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1626,6 +1711,27 @@
 		A68A25E82594B8870025157C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A6A2528C25F06FE700321AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6A2528D25F06FE700321AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1635,6 +1741,7 @@
 		A6E7B15F25920E6D0063BEFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1644,6 +1751,7 @@
 		A6E7B16025920E6D0063BEFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1653,6 +1761,7 @@
 		A6E7B16F259213E10063BEFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1662,6 +1771,7 @@
 		A6E7B170259213E10063BEFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1671,6 +1781,7 @@
 		A6E7B17F25921AF10063BEFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1680,6 +1791,7 @@
 		A6E7B18025921AF10063BEFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1689,6 +1801,7 @@
 		A6E7B18F25922FB70063BEFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1698,6 +1811,7 @@
 		A6E7B19025922FB70063BEFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1707,6 +1821,7 @@
 		A6F0340D25B629C5005E50FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1716,6 +1831,7 @@
 		A6F0340E25B629C5005E50FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1725,6 +1841,7 @@
 		A6F0342C25B635DA005E50FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1734,6 +1851,7 @@
 		A6F0342D25B635DA005E50FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1743,6 +1861,7 @@
 		A6F0344B25B64263005E50FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1752,6 +1871,7 @@
 		A6F0344C25B64263005E50FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1892,6 +2012,15 @@
 			buildConfigurations = (
 				A68A25E72594B8870025157C /* Debug */,
 				A68A25E82594B8870025157C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A2528E25F06FE700321AEB /* Build configuration list for PBXNativeTarget "Matrix Determinant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A2528C25F06FE700321AEB /* Debug */,
+				A6A2528D25F06FE700321AEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
